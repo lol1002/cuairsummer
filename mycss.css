@@ -1,0 +1,80 @@
+body {
+    font-family: monospace;
+    display:grid;
+    /**grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr) 100px;
+    grid-template-areas:
+        " mHead mHead mHead mHead "
+        "header header header"
+        " main main nav"
+        " main main nav"
+        " main main nav"
+        " footer footer footer"; 
+
+    gap: 5px;/**/
+}
+
+
+.websiteName {
+    padding-left:10pt;
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration-line:underline;
+    text-decoration-color:darkseagreen;
+    text-decoration-thickness:30%;
+    text-align:center;
+    
+
+}
+
+.introduction {
+    padding-left: 10pt;
+    font-size: 18px;
+    font-weight: 400;
+    text-align:center;
+    
+}
+
+header {
+    padding-left: 10pt;
+    color:white;
+    font-size: 22px;
+    font-weight:600;
+    background-color:darkgreen;
+    text-align:center;
+
+    
+
+}
+
+.mainStuff {
+    margin: 5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mainStuff p{
+    font-size: 18px;
+    font-weight: 300;
+}
+    
+nav h1{
+    font-size:22px;
+    color:darkgreen;
+    text-decoration-line:underline;
+    text-decoration-color:darkseagreen;
+    text-decoration-thickness:30%;
+}
+
+img {
+    float:left;
+    height: 200pt;
+    margin: 1em;
+}
+
+footer {
+    font-weight: 50;
+    font-size: 7px;
+    text-align: center;
+}
